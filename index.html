@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <body class="account">
+        <div class="account__header">
+            <a href="https://www.contentful.com"><img class="account__logo" src="//static.contentful.com/gatekeeper/logos/contentful-dark-221b5b2ac9ad7308346ba1b3a6ca08bd0a0816537e19a0d4e50f32e97cbd4675.svg" width="157" height="32">
+            </a>
+            <nav class="account__nav">
+                New to Contentful?
+                <a class="a" href="https://www.contentful.com/sign-up">Sign up</a>
+            </nav>
+        </div>
+        <div class="account__title">
+            <h1 class="account__headline h h--1">Welcome back</h1>
+            <div class="sh account-header__subheadline sh--1">Log in to your Contentful account.</div>
+        </div>
+        <div class="row">
+            <div class="row__col row__col--xl-6 row__col--l-7 row__col--m-8 row__col--xl-centered row__col--l-centered row__col--m-centered">
+                <div class="account__box box">
+                    <form class="form account__form" id="login-form" action="/login" accept-charset="UTF-8" method="post">
+                        <input type="hidden" name="authenticity_token" value="4lcHoViGLLHLaPB8pa/e8DoRByKoq35RZ0R5gaA5/lYWQfZhN9Zc43MHnFUEvVih2k7+KC/tenOXhenrcCUvWw==">
+                        <div id="flash"></div>
+                        <div class="form__item">
+                            <label class="label form__label" for="user_email">Email</label>
+                            <input class="required form__input input" autofocus="autofocus" type="text" name="user[email]" id="user_email">
+                        </div>
+                        <div class="form__item">
+                            <label class="label form__label" for="user_password">Password</label>
+                            <input class="required form__input input" type="password" name="user[password]" id="user_password">
+                        </div>
+                        <div class="form__item">
+                            <input type="checkbox" name="remember_me" id="remember_me" value="{:name=>&quot;user[remember_me]&quot;}">
+                            <label class="form__label label label--inline" for="remember_me">
+                            Remember me
+                        </label>
+                        </div>
+                        <input type="submit" name="commit" value="Log in" class="btn btn--large btn--expanded btn--blue" data-disable-with="Log in">
+                    </form>
+                    <div class="account__buttons">
+                        <div class="account__divider uppercase">
+                            <div class="account__divider-text">
+                                Or log in with
+                            </div>
+                        </div>
+                        <div class="row row--lessgutter">
+                            <div class="row__col row__col--m-4">
+                                <a class="auth_provider btn btn--small btn--github" rel="nofollow" data-method="post" href="https://be.contentful.com/account/profile/auth/github"><img src="//static.contentful.com/gatekeeper/oauth/github-1733d1a43121125e5fc3004c0b91962cf04a39dd9799819101f8aa660c3e4f13.svg" width="24" height="24"><span class="auth_provider_name">Github</span></a>
+                            </div>
+                            <div class="row__col row__col--m-4">
+                                <a class="auth_provider btn btn--small btn--google" rel="nofollow" data-method="post" href="https://be.contentful.com/account/profile/auth/google_oauth2"><img src="//static.contentful.com/gatekeeper/oauth/google-7640aeb9350952d68dd040a1601bb7bb38d56999c75314adb49fe1a109874438.svg" width="24" height="24"><span class="auth_provider_name">Google</span></a>
+                            </div>
+                            <div class="row__col row__col--m-4">
+                                <a class="auth_provider btn btn--small btn--twitter" rel="nofollow" data-method="post" href="https://be.contentful.com/account/profile/auth/twitter"><img src="//static.contentful.com/gatekeeper/oauth/twitter-2b3165fd6765ea282ce6cf06be5bc19a23aa8b18ea814c785d9b1f300253b4ad.svg" width="24" height="24"><span class="auth_provider_name">Twitter</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="account__meta footer_links">
+                    <a class="a" href="/login/sso">Log in via SSO</a>
+                    <span>|</span>
+                    <a class="a" href="/password/new">Reset password</a>
+                    <span>|</span>
+                    <a class="a" href="/confirmation/new/resend">Resend confirmation</a>
+                    <span>|</span>
+                    <a class="a" href="/unlock/new">Unlock account</a>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row__col row__col--m-4">
+            <a class="auth_provider btn btn--small btn--twitter" rel="nofollow" data-method="post" href="https://be.contentful.com/account/profile/auth/twitter"><img src="//static.contentful.com/gatekeeper/oauth/twitter-2b3165fd6765ea282ce6cf06be5bc19a23aa8b18ea814c785d9b1f300253b4ad.svg" width="24" height="24"><span class="auth_provider_name">Twitter</span></a>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="account__meta footer_links">
+            <a class="a" href="/login/sso">Log in via SSO</a>
+            <span>|</span>
+            <a class="a" href="/password/new">Reset password</a>
+            <span>|</span>
+            <a class="a" href="/confirmation/new/resend">Resend confirmation</a>
+            <span>|</span>
+            <a class="a" href="/unlock/new">Unlock account</a>
+
+        </div>
+        </div>
+        </div>
+    </body>
+
+</html>

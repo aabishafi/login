@@ -1,0 +1,292 @@
+body {
+    margin-bottom: 186px;
+    margin-bottom: 116px;
+    font-size: 14px;
+    color: #000000;
+    background-color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navigation {
+    background-color: #323334 !important;
+    display: none;
+}
+
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+@media (min-width: 0px) {
+    .container {
+        width: 320px;
+        max-width: 320px;
+    }
+}
+
+.nav-links {
+    color: #FFFFFF;
+    height: 36px;
+    line-height: 36px;
+    width: 100%;
+}
+
+.container {
+    width: 1024px;
+    max-width: 1024px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-left {
+    float: left;
+    text-align: left;
+    margin-left: 45px;
+}
+
+.nav-right {
+    float: right;
+    text-align: right;
+    margin-right: 45px;
+}
+
+.nav-links a,
+.nav-links a:link,
+.nav-links a:hover,
+.nav-links a:visited {
+    color: #FFFFFF;
+    text-decoration: underline;
+    border: 1px solid #323334;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+media="screen and (min-width: 0px)" .nav-banner {
+    height: 50px;
+}
+
+.nav-banner {
+    margin: 0px;
+    color: #FFFFFF;
+    height: 50px;
+    -webkit-box-shadow: 0px 3px 4.7px 0.3px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 3px 4.7px 0.3px rgba(0, 0, 0, 0.39);
+    box-shadow: 0px 3px 4.7px 0.3px rgba(0, 0, 0, 0.39);
+}
+
+.bg-primary {
+    background-color: #0D8390 !important;
+}
+
+@media (min-width: 0px) .container {
+    width: 320px;
+    max-width: 320px;
+}
+
+media="screen and (min-width: 0px)" .nav-banner-block {
+    width: 320px;
+    max-width: 320px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo-myir {
+    content: url(../img/logo-myir-lg.png);
+    float: left;
+}
+
+.banner-text {
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    padding-left: 2px;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: 600;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.body-head {
+    height: 105px;
+}
+
+.row {
+    margin: 0px;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.card-350 .card-body {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    border: 0px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-align: center;
+}
+
+.card-350 .card-body {
+    padding: 26px 32px 26px 32px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #F0F0F0;
+    background-color: #F0F0F0;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 3px 5px 0.0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.form-group {
+    width: 286px;
+    margin-bottom: 19px;
+}
+
+a:visited {
+    color: #0D436B;
+    text-decoration: underline;
+}
+
+.form-group a {
+    font-size: 12px;
+}
+
+.form-group label {
+    color: #121f3a;
+    float: left;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+media="screen and (min-width: 0px)" {
+    .login-input {
+        width: 286px;
+    }
+}
+
+.form-control {
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.login-input {
+    height: 42px;
+    width: 286px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-group {
+    width: 286px;
+    margin-bottom: 19px;
+}
+
+.form-group label {
+    color: #121f3a;
+    float: left;
+}
+
+.form-button {
+    margin: 0px;
+    padding: 9px 0px 0px 0px;
+}
+
+.login-button {
+    width: 286px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0d8390;
+    border-color: #0d8390;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.link-group {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.spacer-pipe {
+    color: #0D436B;
+    margin: 0 6px 0 6px;
+}
+
+div.card-footer {
+    background-color: #0D436B;
+    border-color: #0D436B;
+    border-style: solid;
+    border-radius: 0rem !important;
+    border-width: 1px;
+    outline: 0px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial, Verdana, sans-serif !important;
+    font-size: 13px;
+    line-height: 52px;
+    text-decoration: none;
+    height: 52px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 116px;
+    /* line-height: 116px; */
+    background-color: #E9E9E9 !important;
+    font-size: 14px;
+    height: 186px;
+}
+
+@media (min-width: 0px) .container {
+    width: 320px;
+    max-width: 320px;
+}
+
+.footer-links {
+    margin-top: 30px;
+}
+
+.footer-links {
+    color: #121F3A;
+    margin-top: 35px;
+    width: 100%;
+}

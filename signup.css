@@ -1,0 +1,214 @@
+body {
+    background-color: #f7f9fa;
+    color: #536171;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sign-up-form {
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+    background-color: white;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+
+.sign-up-form h1 {
+    color: #2A3039;
+    margin-bottom: 30px;
+}
+
+.input-box {
+    border-radius: 3px;
+    padding: 10px;
+    border-width: 2px;
+    width: 100%;
+    outline: none;
+    margin: 10px -8px;
+    border: 1px solid #999;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.or {
+    background-color: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+
+.sign-btn {
+    width: 100%;
+    background: linear-gradient(0deg, #3C80CF 0%, #5B9FEF 100%) no-repeat;
+    background-size: auto;
+    color: white;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.google-btn {
+    border-color: rgb(239, 170, 161);
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+    border-width: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.main-header {
+    color: #8091A5 !important;
+}
+
+
+/* .ONc {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+    text-align: center;
+    max-width: 456px;
+    border-radius: 3px;
+    padding: 32px;
+    margin: 0px auto;
+}
+
+div {
+    display: block;
+}
+
+.iJAoDb {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-family: "Avenir Next W01", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: currentcolor;
+    margin: 0px;
+    padding: 0px;
+}
+
+.signupwith {
+    margin-bottom: 20px;
+}
+
+.upwith {
+    text-align: center;
+    position: relative;
+}
+
+.upwith::after {
+    background-color: rgb(219, 227, 231);
+    content: "";
+    height: 1px;
+    left: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-1px);
+    width: 100%;
+    z-index: 30;
+}
+
+.goog n github {
+    margin-bottom: 10px;
+}
+
+.googngit {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+only git @media (min-width: 36em) <style>.crWYrv {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+git@media (min-width: 36em) <style>.foWbeS {
+    margin-bottom: 0px;
+}
+
+git @media (min-width: 36em) <style>.foWbeS {
+    margin-right: 4px;
+}
+
+goog@media (min-width: 36em) <style>.crWYrv {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+gog@media (min-width: 36em) <style>.jNvXiX {
+    margin-left: 4px;
+}
+
+div {
+    display: block;
+}
+
+.googbtn {
+    cursor: pointer;
+    font-family: "Avenir Next W01", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    white-space: nowrap;
+    user-select: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-box-pack: center;
+    justify-content: center;
+    line-height: 40px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 100%;
+    text-align: center;
+    text-indent: 10px;
+    color: rgb(221, 75, 57);
+    padding-left: 24px;
+    padding-right: 24px;
+    text-decoration: none;
+    transition: transform 0.1s ease 0s, background-color, border-color;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    background: url(//d33wubrfki0l68.cloudfront.net/f7d63fa…/423c4/assets/images/icons/google.svg) 30px center no-repeat;
+    border-color: rgb(239, 170, 161);
+    border-radius: 25px;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}*/
